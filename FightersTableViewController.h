@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FightersTableViewController.h
 //  FighterBaseTest
 //
 //  Created by Cory Carter on 4/22/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FightersTableViewController : UITableViewController
+
+@property (strong, nonatomic) NSMutableArray *listOfFighters;
 
 @end

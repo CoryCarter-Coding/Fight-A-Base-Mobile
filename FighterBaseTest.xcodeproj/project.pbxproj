@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B2825D6190FBC8A0014540D /* fab.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2825D5190FBC8A0014540D /* fab.png */; };
+		8B2825DA190FC16B0014540D /* FABFont.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2825D7190FC16B0014540D /* FABFont.png */; };
+		8B2825DB190FC16B0014540D /* FABMIntro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B2825D8190FC16B0014540D /* FABMIntro.mp3 */; };
+		8B2825DC190FC16B0014540D /* TapFont.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2825D9190FC16B0014540D /* TapFont.png */; };
+		8B2825E2190FC45E0014540D /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2825E1190FC45E0014540D /* SplashViewController.m */; };
 		8B8E806F1907746300C60616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8E806E1907746300C60616 /* Foundation.framework */; };
 		8B8E80711907746300C60616 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8E80701907746300C60616 /* CoreGraphics.framework */; };
 		8B8E80731907746300C60616 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8E80721907746300C60616 /* UIKit.framework */; };
@@ -14,13 +19,16 @@
 		8B8E807B1907746300C60616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E807A1907746300C60616 /* main.m */; };
 		8B8E807F1907746300C60616 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E807E1907746300C60616 /* AppDelegate.m */; };
 		8B8E80821907746300C60616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E80801907746300C60616 /* Main.storyboard */; };
-		8B8E80851907746300C60616 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E80841907746300C60616 /* ViewController.m */; };
 		8B8E80871907746300C60616 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E80861907746300C60616 /* Images.xcassets */; };
 		8B8E808E1907746300C60616 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8E808D1907746300C60616 /* XCTest.framework */; };
 		8B8E808F1907746300C60616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8E806E1907746300C60616 /* Foundation.framework */; };
 		8B8E80901907746300C60616 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8E80721907746300C60616 /* UIKit.framework */; };
 		8B8E80981907746300C60616 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E80961907746300C60616 /* InfoPlist.strings */; };
 		8B8E809A1907746300C60616 /* FighterBaseTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E80991907746300C60616 /* FighterBaseTestTests.m */; };
+		8B8E80A51907757200C60616 /* FightersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E80A41907757200C60616 /* FightersTableViewController.m */; };
+		8B8E80A8190776F800C60616 /* Fighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E80A7190776F800C60616 /* Fighter.m */; };
+		8B8E80AB19077CD100C60616 /* JSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E80AA19077CD100C60616 /* JSONHelper.m */; };
+		8BE16F01190ED39800785210 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE16F00190ED39800785210 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B2825D5190FBC8A0014540D /* fab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fab.png; sourceTree = "<group>"; };
+		8B2825D7190FC16B0014540D /* FABFont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FABFont.png; sourceTree = "<group>"; };
+		8B2825D8190FC16B0014540D /* FABMIntro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FABMIntro.mp3; sourceTree = "<group>"; };
+		8B2825D9190FC16B0014540D /* TapFont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TapFont.png; sourceTree = "<group>"; };
+		8B2825E0190FC45E0014540D /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		8B2825E1190FC45E0014540D /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		8B8E806B1907746300C60616 /* FighterBaseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FighterBaseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8E806E1907746300C60616 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8B8E80701907746300C60616 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +59,20 @@
 		8B8E807D1907746300C60616 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B8E807E1907746300C60616 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8B8E80811907746300C60616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B8E80831907746300C60616 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8B8E80841907746300C60616 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8B8E80861907746300C60616 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8B8E808C1907746300C60616 /* FighterBaseTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FighterBaseTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8E808D1907746300C60616 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8B8E80951907746300C60616 /* FighterBaseTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FighterBaseTestTests-Info.plist"; sourceTree = "<group>"; };
 		8B8E80971907746300C60616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B8E80991907746300C60616 /* FighterBaseTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FighterBaseTestTests.m; sourceTree = "<group>"; };
+		8B8E80A31907757200C60616 /* FightersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FightersTableViewController.h; path = ../FightersTableViewController.h; sourceTree = "<group>"; };
+		8B8E80A41907757200C60616 /* FightersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FightersTableViewController.m; path = ../FightersTableViewController.m; sourceTree = "<group>"; };
+		8B8E80A6190776F800C60616 /* Fighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fighter.h; sourceTree = "<group>"; };
+		8B8E80A7190776F800C60616 /* Fighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fighter.m; sourceTree = "<group>"; };
+		8B8E80A919077CD100C60616 /* JSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHelper.h; sourceTree = "<group>"; };
+		8B8E80AA19077CD100C60616 /* JSONHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHelper.m; sourceTree = "<group>"; };
+		8BE16EFF190ED39800785210 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8BE16F00190ED39800785210 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +132,19 @@
 		8B8E80741907746300C60616 /* FighterBaseTest */ = {
 			isa = PBXGroup;
 			children = (
+				8B2825E0190FC45E0014540D /* SplashViewController.h */,
+				8B2825E1190FC45E0014540D /* SplashViewController.m */,
+				8B8E80A919077CD100C60616 /* JSONHelper.h */,
+				8B8E80AA19077CD100C60616 /* JSONHelper.m */,
 				8B8E807D1907746300C60616 /* AppDelegate.h */,
 				8B8E807E1907746300C60616 /* AppDelegate.m */,
 				8B8E80801907746300C60616 /* Main.storyboard */,
-				8B8E80831907746300C60616 /* ViewController.h */,
-				8B8E80841907746300C60616 /* ViewController.m */,
+				8B8E80A6190776F800C60616 /* Fighter.h */,
+				8B8E80A7190776F800C60616 /* Fighter.m */,
+				8B8E80A31907757200C60616 /* FightersTableViewController.h */,
+				8B8E80A41907757200C60616 /* FightersTableViewController.m */,
+				8BE16EFF190ED39800785210 /* DetailViewController.h */,
+				8BE16F00190ED39800785210 /* DetailViewController.m */,
 				8B8E80861907746300C60616 /* Images.xcassets */,
 				8B8E80751907746300C60616 /* Supporting Files */,
 			);
@@ -126,6 +154,10 @@
 		8B8E80751907746300C60616 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B2825D7190FC16B0014540D /* FABFont.png */,
+				8B2825D8190FC16B0014540D /* FABMIntro.mp3 */,
+				8B2825D9190FC16B0014540D /* TapFont.png */,
+				8B2825D5190FBC8A0014540D /* fab.png */,
 				8B8E80761907746300C60616 /* FighterBaseTest-Info.plist */,
 				8B8E80771907746300C60616 /* InfoPlist.strings */,
 				8B8E807A1907746300C60616 /* main.m */,
@@ -230,7 +262,11 @@
 			files = (
 				8B8E80871907746300C60616 /* Images.xcassets in Resources */,
 				8B8E80791907746300C60616 /* InfoPlist.strings in Resources */,
+				8B2825DC190FC16B0014540D /* TapFont.png in Resources */,
+				8B2825DA190FC16B0014540D /* FABFont.png in Resources */,
 				8B8E80821907746300C60616 /* Main.storyboard in Resources */,
+				8B2825D6190FBC8A0014540D /* fab.png in Resources */,
+				8B2825DB190FC16B0014540D /* FABMIntro.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B8E80851907746300C60616 /* ViewController.m in Sources */,
+				8B8E80AB19077CD100C60616 /* JSONHelper.m in Sources */,
+				8B2825E2190FC45E0014540D /* SplashViewController.m in Sources */,
+				8B8E80A51907757200C60616 /* FightersTableViewController.m in Sources */,
+				8B8E80A8190776F800C60616 /* Fighter.m in Sources */,
 				8B8E807F1907746300C60616 /* AppDelegate.m in Sources */,
 				8B8E807B1907746300C60616 /* main.m in Sources */,
+				8BE16F01190ED39800785210 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +496,7 @@
 				8B8E809F1907746300C60616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B8E80A01907746300C60616 /* Build configuration list for PBXNativeTarget "FighterBaseTestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +505,7 @@
 				8B8E80A21907746300C60616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
